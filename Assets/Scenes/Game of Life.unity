@@ -298,7 +298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panSpeed: 10
-  zoomSpeed: 1200
+  zoomSpeed: 20
   zoomInMax: 2
   zoomOutMax: 40
 --- !u!114 &437193187
@@ -345,7 +345,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2980971, y: 1}
+    m_SensorSize: {x: 2.302966, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
