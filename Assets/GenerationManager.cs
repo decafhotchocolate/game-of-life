@@ -44,6 +44,9 @@ public class GenerationManager : MonoBehaviour
 
     void Start()
     {
+        fieldWidth = StateNameController.gridWidth;
+        fieldHeight = StateNameController.gridHeight;
+        
         for (int x = 0; x < fieldHeight; x++) // generate x
         {
             for (int y = 0; y < fieldWidth; y++) // generate y
