@@ -27,8 +27,16 @@ public class MenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        StateNameController.gridWidth = Convert.ToInt32(x.text);
-        StateNameController.gridHeight = Convert.ToInt32(y.text);
+        if (x.text != "")
+            StateNameController.gridWidth = Convert.ToInt32(x.text);
+        else
+            StateNameController.gridWidth = 20;
+
+        if (y.text != "")
+            StateNameController.gridHeight = Convert.ToInt32(y.text);
+        else
+            StateNameController.gridHeight = 20;
+            
 
         SceneManager.LoadSceneAsync(playSceneName, LoadSceneMode.Single);
     }
